@@ -1,0 +1,33 @@
+{
+  "name": "@zedsols/web3-node-api",
+  "version": "0.1.0",
+  "main": "src/main.ts",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "author": "Zedsols",
+  "description": "Node.js API setup for Web3",
+  "keywords": [
+    "Web3",
+    "Solidity",
+    "Smart Contracts",
+    "Node.js",
+    "API"
+  ],
+  "dependencies": {
+    "ethers": "^6.12.0",
+    "express": "^4.19.2",
+    "hardhat": "^2.22.3",
+    "morgan": "^1.10.0",
+    "tsx": "^4.7.2",
+    "web3": "^4.8.0",
+    "zod": "^3.23.0"
+  },
+  "packageManager": "pnpm@9.0.4",
+  "scripts": {},
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^20.12.7"
+  }
+}
